@@ -49,7 +49,7 @@ contract TestGinsengSwapV3Router is IGinsengSwapV3SwapCallback {
 
     event SwapCallback(int256 amount0Delta, int256 amount1Delta);
 
-    function GinsengSwapV3SwapCallback(
+    function uniswapV3SwapCallback(
         int256 amount0Delta,
         int256 amount1Delta,
         bytes calldata data

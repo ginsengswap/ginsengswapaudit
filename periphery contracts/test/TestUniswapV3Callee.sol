@@ -50,7 +50,7 @@ contract TestGinsengSwapV3Callee is IGinsengSwapV3SwapCallback {
         IGinsengSwapV3Pool(pool).swap(recipient, false, -amount0Out.toInt256(), sqrtPriceLimitX96, abi.encode(msg.sender));
     }
 
-    function GinsengSwapV3SwapCallback(
+    function uniswapV3SwapCallback(
         int256 amount0Delta,
         int256 amount1Delta,
         bytes calldata data

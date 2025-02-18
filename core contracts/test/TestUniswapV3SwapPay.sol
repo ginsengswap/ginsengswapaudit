@@ -25,7 +25,7 @@ contract TestGinsengSwapV3SwapPay is IGinsengSwapV3SwapCallback {
         );
     }
 
-    function GinsengSwapV3SwapCallback(
+    function uniswapV3SwapCallback(
         int256,
         int256,
         bytes calldata data

@@ -14,7 +14,7 @@ contract TestGinsengSwapV3ReentrantCallee is IGinsengSwapV3SwapCallback {
         IGinsengSwapV3Pool(pool).swap(address(0), false, 1, TickMath.MAX_SQRT_RATIO - 1, new bytes(0));
     }
 
-    function GinsengSwapV3SwapCallback(
+    function uniswapV3SwapCallback(
         int256,
         int256,
         bytes calldata

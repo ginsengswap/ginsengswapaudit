@@ -10,7 +10,7 @@ import './GinsengSwapV3Pool.sol';
 
 /// @title Canonical GinsengSwap V3 factory
 /// @notice Deploys GinsengSwap V3 pools and manages ownership and control over pool protocol fees
-contract GinsengV3Factory is IGinsengSwapV3Factory, GinsengSwapV3PoolDeployer, NoDelegateCall {
+contract GinsengSwapV3Factory is IGinsengSwapV3Factory, GinsengSwapV3PoolDeployer, NoDelegateCall {
     /// @inheritdoc IGinsengSwapV3Factory
     address public override owner;
 

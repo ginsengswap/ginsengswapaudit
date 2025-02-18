@@ -28,7 +28,7 @@ abstract contract LiquidityManagement is IGinsengSwapV3MintCallback, PeripheryIm
     }
 
     /// @inheritdoc IGinsengSwapV3MintCallback
-    function GinsengSwapV3MintCallback(
+    function uniswapV3MintCallback(
         uint256 amount0Owed,
         uint256 amount1Owed,
         bytes calldata data

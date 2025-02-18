@@ -34,7 +34,7 @@ contract GinsengSwapV3PoolSwapTest is IGinsengSwapV3SwapCallback {
         (nextSqrtRatio, , , , , , ) = IGinsengSwapV3Pool(pool).slot0();
     }
 
-    function GinsengSwapV3SwapCallback(
+    function uniswapV3SwapCallback(
         int256 amount0Delta,
         int256 amount1Delta,
         bytes calldata data
